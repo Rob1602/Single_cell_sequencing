@@ -45,8 +45,12 @@ The supervised section addresses the classification of cells into ten hematopoie
 - Extremely Randomized Trees (ExtraTrees);
 - XGBoost;
 - Gaussian Naive Bayes.
+
 Each classifier is combined with alternative preprocessing configurations and model-specific hyperparameters. The complete Cartesian search space contains approximately 4.3 million possible pipelines; under the available computational budget, approximately 468 fixed configurations are selected through a balanced sampling strategy and evaluated across a maximum of 15,000 model fits.
+
+
 Nested Cross-Validation
+
 Model selection and evaluation are performed through a leak-free nested cross-validation procedure:
 - an 8-fold outer cross-validation estimates how well the complete model-selection procedure generalises to unseen data;
 - a 4-fold inner cross-validation evaluates each fixed pipeline within every outer-training fold;
