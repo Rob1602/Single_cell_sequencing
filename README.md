@@ -1,5 +1,5 @@
 # Single_cell_sequencing
-Machine Learning for Single-Cell RNA-seq Analysis
+Machine Learning for Single-Cell RNA-seq Analysis - For further details refer to the file single_cell_project_report
 This three-person group project presents an end-to-end analysis of single-cell RNA-sequencing data, combining exploratory data analysis, biologically informed preprocessing, unsupervised learning, and supervised classification. The project systematically evaluates a large number of preprocessing and modelling combinations to investigate cellular structure and classify hematopoietic cell populations from their gene-expression profiles.
 Project Objective
 The objective of the project is to analyse the statistical and biological structure of single-cell RNA-seq data and develop machine learning pipelines capable of:
